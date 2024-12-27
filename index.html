@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>HOMI</title>
+</head>
+<body>
+    <div class="wrapper" stage='0'>
+      <div id="stage-0">
+        <h3>Computer workshop project</h3>
+        <input type="radio" id="tab-manage" name="tab" checked><label style="display: inline-block;" for="tab-manage"><h1>Management</h1></label>
+        <input type="radio" id="tab-design" name="tab"><label style="display: inline-block; margin-left: 16em;" for="tab-design"><div></div><h1>Design</h1></label>
+
+        <div class="tab" id="content-manage">
+          <div class="card card__one" name="Soheil">
+            <div class="card__bg"></div>
+            <div class="card__text">
+              <p class="card__title">Soheil</p>
+            </div>
+          </div>
+          <div class="card card__two" name="Taha">
+            <div class="card__bg"></div>
+            <div class="card__text">
+              <p class="card__title">Taha</p>
+            </div>
+          </div>
+          
+          <div class="card card__three" name="Ilia">
+            <div class="card__bg"></div>
+
+            <div class="card__text">
+              <p class="card__title">Ilia</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab" id="content-design">
+          <div class="card card__four" name="Sadra">
+            <div class="card__bg"></div>
+            <div class="card__text">
+              <p class="card__title">Sadra</p>
+            </div>
+          </div>
+          <div class="card card__five" name="Bardia">
+            <div class="card__bg"></div>
+            <div class="card__text">
+              <p class="card__title">Bardia</p>
+            </div>
+          </div>
+          
+          <div class="card card__six" name="Mahan">
+            <div class="card__bg"></div>
+            <div class="card__text">
+              <p class="card__title">Mahan</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="stage-1" class="vanish">
+        <div class="collab-wrapper">
+          <div class="collab-detail">
+            <div>
+              <div class="svg-btn" onclick="changeStage('0')">
+                <svg data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="color: currentcolor;"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 14.0607L9.96966 13.5303L5.14644 8.7071C4.75592 8.31658 4.75592 7.68341 5.14644 7.29289L9.96966 2.46966L10.5 1.93933L11.5607 2.99999L11.0303 3.53032L6.56065 7.99999L11.0303 12.4697L11.5607 13L10.5 14.0607Z" fill="currentColor"></path></svg>
+              </div>
+              <h2 id="c-name">Soheil Basiratnia</h2>
+              <h3 id="wtd">Project Manager</h3>
+              <p id="detail">
+                I have organized the project by coordinating team members' tasks and collaboration using Trello 📋, ensuring clear assignments ✅, deadlines ⏰, and effective communication 📞 for smooth progress.
+              </p>
+            </div>
+            <button id="btn"  class="button-black">
+              Trello
+            </button>
+            <div style="display: flex;justify-content: space-between;align-items: center;">
+              <p id="telegram" style="color: #333;margin: 0;height: fit-content;">@soheil_basirat</p>
+            </div>
+          </div>
+          <video id="video" image="assets/soheil.jpg">
+
+          </video>
+        </div>
+
+      </div>
+
+      </div>
+    
+      <div style="display: flex; gap: 1em;">
+        <button class="button" style="font-family: monospace;">
+          <a href="word.docx" style="color:black;text-decoration: unset;"> word<span style="color: darkblue;">.docx</span></a>
+            
+        </button>
+
+        <button class="button" style="font-family: monospace;">
+          <a href="range.bat" style="color:black;text-decoration: unset;"> script<span style="color: brown;">.bat</span></a>
+           
+        </button>
+
+      </div>
+
+
+     
+    <script src="index.js"></script>
+</body>
+</html>
